@@ -124,14 +124,17 @@ html {
 }
 
 .social-logos #github {
+    width: 39px;
     background: #23272d;
 }
 
 .social-logos #linkedin {
+    width: 39px;
     background: #0077b0;
 }
 
 .social-logos #platzi {
+    width: 39px;
     background: #121f3d;
 }
 
