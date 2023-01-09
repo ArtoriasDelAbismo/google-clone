@@ -42,11 +42,8 @@ html {
 }
 
 .main-container {
-    display: flex;
-    justify-content: center;
     height: 70vh;
-    align-items: flex-start;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .google-logo {
@@ -100,6 +97,44 @@ html {
     height: 35px;
     cursor: pointer;
 }
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.social-icon {
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 100px;
+}
+
+.social-logos {
+    width: 16%;
+    min-width: 170px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.social-logos #github {
+    background: #23272d;
+}
+
+.social-logos #linkedin {
+    background: #0077b0;
+}
+
+.social-logos #platzi {
+    background: #121f3d;
+}
+
 
 footer .edit-container {
     display: flex;
