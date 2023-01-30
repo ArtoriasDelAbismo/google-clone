@@ -15,6 +15,7 @@ html {
     display: flex;
     justify-content: end;
     align-items: center;
+    margin: 10px;
     padding: 10px;
     font-size: 1.3rem;
 }
@@ -24,6 +25,11 @@ html {
     margin-right: 1rem;
     text-decoration: none;
     color:black;
+}
+
+.nav-bar a:hover{
+    color: #7f7d7d;
+    transition: all .5s;
 }
 
 #google-menu {
@@ -39,6 +45,7 @@ html {
 .mi-foto {
     width: 40px;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .main-container {
